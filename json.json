@@ -1,0 +1,9 @@
+[
+    {
+        "color": "red",
+        "completion_status" : 1,
+        "array" :  [1,2,3, "asdf"],
+        "person": { "name": "avinash" }, 
+        "activation_status" : true
+    }
+]
