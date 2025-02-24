@@ -1,0 +1,24 @@
+// function -> function -> callback
+
+
+
+// arrow function -> arrow function -> arrow function -> callback
+
+
+
+// generator -> 
+
+init: 0
+
+1 -> 0+1= 1
+2 - > 1+2 => 3
+3 -> 3+3 = 6
+4 -> 6+4 = 10
+
+
+for of()
+
+
+
+//use function currying
+function(1,2) -> function(3) -> function() --> callback
