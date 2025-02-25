@@ -36,6 +36,13 @@ function main(){
 
     (async ()=>{
 
+        const task1_output = task1()
+        task1_output.then((val) => console.log(val))
+        
+        console.log("hello world")
+
+        
+
         const task2_output = await task2();
         console.log(task2_output)
 
@@ -44,10 +51,7 @@ function main(){
     })()
 
 
-    // const task1_output = task1()
-    // task1_output.then((val) => console.log(val))
-    
-    // console.log("hello world")
+   
 }
 
 main()
