@@ -10,3 +10,39 @@ Content-Type: application/json
 ###
 
 GET https://jsonplaceholder.typicode.com/todos
+
+
+###
+GET http://localhost:3000/api
+
+###
+POST http://localhost:3000/api/todos
+
+###
+POST http://localhost:3000/api/todo
+Content-Type: application/json
+
+{
+    "id": 1,
+    "task": "Learn SQLite with Express"
+}
+
+###
+
+GET http://localhost:3000/api/todo/1
+
+###
+GET http://localhost:3000/api/todo/2
+
+
+###
+PUT http://localhost:3000/api/todo/1
+Content-Type: application/json
+
+{
+    
+    "task": "Learn SQLite with Express1"
+}
+
+###
+DELETE http://localhost:3000/api/todo/4

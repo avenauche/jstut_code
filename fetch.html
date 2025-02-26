@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./fetchapi.js" defer></script>
+</head>
+<body>
+    fetchapi
+
+    <!-- GET ALL TODOS -->
+    <button onclick="getAllTodos()">get all the todos</button>
+
+    <!-- POST a TODO -->
+    <button onclick="createTodo1(1, 'learn javascript')">create a todo1</button>
+    <button onclick="createTodo2(2, 'learn nodejs')">create a todo2</button>
+
+    <!-- Modify a todo -->
+    <button onclick="modifyTodo(2, 'learn nodejs+expressjs')">modify a todo</button>
+
+    <!-- delete a todo -->
+    <button onclick="deleteTodo(1)">delete a todo</button>
+
+
+</body>
+</html>
