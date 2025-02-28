@@ -69,7 +69,7 @@ console.log(engine)
 var arr = [ ["a",1], ["b", 2], ["c", 3]  ]
 
 
-for(var [k,v] in arr){
+for(var [k,v] of arr){
     console.log(k)
     console.log(v)
 }
