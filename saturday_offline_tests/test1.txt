@@ -1,0 +1,56 @@
+1. write a generator function which yields a promise after fetching todo data from the following url and iterate over each todo item and each todo must be yielded and print them onto console
+
+implement error handling mechanisms too and provided guard clauses to overcome HTTP errors and catch the errors and print them onto  the console error logger 
+
+URL to get the todos: 
+https://jsonplaceholder.typicode.com/todos
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2. write a closure to add N numbers, and curry the adding function to accept every input number. use variables of appropriate scopes and use relevant datastructures to hold values. The final output must be shareable among the curried functions. use spread operators, destructuring and rest parameters while passing the inputs to the functions. the input must only be supplied from scope external to the closure and adding must be within the closure 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
